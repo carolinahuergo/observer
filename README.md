@@ -28,7 +28,7 @@ El patrón Observer sugiere que se añada un mecanismo de suscripción a la clas
 
 7. El cliente debe crear todos los suscriptores necesarios y registrarlos con los notificadores adecuados.
 
-# Diagrama UML:
+## Diagrama UML:
 
 ## Ventajas:
 
