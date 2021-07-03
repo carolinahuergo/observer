@@ -20,7 +20,7 @@ El patrón Observer sugiere que se añada un mecanismo de suscripción a la clas
 
 3. Declarar la interfaz notificadora com los métodos para añadir y eliminar de la lista a un objeto suscriptor.
 
-4 .Decidir dónde colocar la lista de suscripción y la implementación de los métodos de suscripción. Normalmente, este código es colocado en una clase abstracta derivada directamente de la interfaz notificadora. Los notificadores concretos extienden esa clase, heredando el comportamiento de suscripción. Sin embargo, si se está aplicando el patrón a una jerarquía de clases existentes, se debería considerar utilizar la composición: colocar la lógica de la suscripción en un objeto separado y hacer que todos los notificadores reales la utilicen.
+4. Decidir dónde colocar la lista de suscripción y la implementación de los métodos de suscripción. Normalmente, este código es colocado en una clase abstracta derivada directamente de la interfaz notificadora. Los notificadores concretos extienden esa clase, heredando el comportamiento de suscripción. Sin embargo, si se está aplicando el patrón a una jerarquía de clases existentes, se debería considerar utilizar la composición: colocar la lógica de la suscripción en un objeto separado y hacer que todos los notificadores reales la utilicen.
 
 5. Crear clases notificadoras concretas. Cada vez que suceda algo importante dentro de una notificadora, deberá notificar a todos sus suscriptores.
 
